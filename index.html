@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/celular.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav id="menu" class="menu">
+            <a href="#">Home</a>
+            <a href="#">Turismo</a>
+            <a href="#">Cultura</a>
+            <a href="#">Economia</a>
+        </nav>
+
+        <div class="hamburguer" onclick="toggleMenu()">
+         &#9776
+        </div>
+    </header>
+
+    <section class="ango-img">
+        <img src="imgs/Saved Pictures/1200px-Flag_of_Angola.svg.png" alt="bandeira">
+    </section>
+
+    <section class="hero-paisagem">
+        <div class="cards">
+            <h1>Paisagens de Angolanas</h1>
+            <div class="card"><img src="imgs/Saved Pictures/Luanda_1500x800.jpg" alt="luanda">
+            <h3>Cidada de Luanda</h3></div>
+            <div class="card"><img src="imgs/natureza/Kalandula-Falls.jpg" alt="">
+             <h3>Quedas de Kalandula</h3></div>
+            <div class="card"><img src="imgs/natureza/ban-a1.jpg" alt=""> <h3>Miradouro da lua</h3></div>
+        </div>
+    </section>
+
+    <section class="hero-mapa">
+        <img src="imgs/Saved Pictures/Provincias_Angola_2025.png" alt="">
+    </section>
+
+    <section class="hero-explicacao">
+        <div class="caixas">
+            <div class="caixa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro illo dolorum non molestiae incidunt ipsa unde modi rerum quae, perspiciatis consequuntur vitae ab adipisci aspernatur similique quasi quos fuga quod.</div>
+
+            <div class="caixa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quidem quas sit recusandae amet earum iste blanditiis porro quis! Quis beatae dolor eveniet ullam consequuntur esse numquam quibusdam, suscipit dolorem.</div>
+            
+            <div class="caixa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem officia corrupti eaque error vel, quia temporibus, quaerat animi quo unde labore tempore aliquam expedita atque nostrum soluta velit iusto.</div>
+        </div>
+
+     </section>
+
+    <script>
+        function toggleMenu(){
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('Show');
+        }
+    </script>
+
+     <footer class="pe">
+        <p>vou organizar</p>
+    </footer>
+</body>
+</html>
