@@ -15,7 +15,7 @@ body {
 .navbar {
     background-color: rgba(204,9, 47);
     display: flex;
-    padding: 20px;
+    padding: 10px;
 }
 
 .navbar nav a {
@@ -47,3 +47,99 @@ body {
     width: 100%;
 }
 
+h2 {
+    background-color:rgba(255, 0, 0, 0.089) ;
+    color: yellow;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-paisagem {
+    background-color:rgba(255, 0, 0, 0.089) ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 60px;
+    text-align: center;
+    color: yellow;
+    padding: 30px;
+    box-shadow: inset 1px 0px 9px rgba(255, 0, 0, 0.336);
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.349);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;    
+    transform: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.card h3 {
+    padding: 12px;
+    color: yellow;
+}
+
+.hero-mapa {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-mapa img {
+        width: 60%;
+}
+
+.hero-mapa img:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.hero-explicacao {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.caixa {
+    background-color: rgba(255, 255, 0, 0.603);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom:  20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.349);
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+caixa:hover,.caixa:active {
+    background-color: rgba(255, 255, 0, 0.397);
+    transform: scale(1.05);
+}
+
+
+footer, footer p  {
+    background-color: rgba(204,9, 47);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+    color: white;
+}
