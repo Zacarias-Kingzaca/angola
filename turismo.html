@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/celular.css">
+</head>
+<body>
+       <header class="navbar">
+        <nav id="menu" class="menu">
+            <a href="index.html">Home</a>
+            <a href="turismo.html">Turismo</a>
+            <a href="cultura.html">Cultura</a>
+            <a href="economia.html">Economia</a>
+        </nav>
+
+        <div class="hamburguer" onclick="toggleMenu()">
+         &#9776
+        </div>
+    </header>
+   <section class="hero-paisagem">
+    <p>
+    <span>Turismo em Angola</span>, descubra um  país rico em Paisagens deslubrantes, cultura vibrante e história marcante. Angola oferece uma experiência única para quem busca aventura, natureza e autenticidade. de Praias paradisíacas às montanhas impressionantes, cada canto do país guarda uma beleza especial à espera de ser explorada. 
+   </p>
+   <div class="card"><img src="imgs/Saved Pictures/fr_drapeau_angola_drapeau.jpg" alt=""></div>
+   </section>
+   <h2>Destinos Populares</h2>
+   <section class="hero-paisagem">
+        <div class="card"><img src="imgs/Saved Pictures/fortaleza-de-sao-miguel.jpg" alt="">
+        <h3>Fortaleza de são Miguel</h3></div>
+        <div class="card"><img src="imgs/natureza/por-do-sol-brilhante-com-um-grande-amarelo-sobre-savana-africana-213308825.jpg" alt=""><h3>Savana Angolana</h3></div>
+        <div class="card"><img src="imgs/natureza/Angola_0.jpg" alt=""><h3>Miradouro da Lua</h3></div>
+        <div class="card"><img src="imgs/natureza/africa-landscape-angola.jpg" alt=""><h3>Serra da Leba</h3></div>
+        <div class="card"><img src="imgs/natureza/3708797_orig.jpg" alt=""><h3>Savana Angolana</h3></div>
+        <div class="card"><img src="imgs/Saved Pictures/cidade-mexico.jpg" alt=""><h3>Cidade do Moxico</h3></div>
+        <div class="card"><img src="imgs/Saved Pictures/Luanda_1500x800.jpg" alt="luanda">
+        <h3>Cidada de Luanda</h3></div>
+        <div class="card"><img src="imgs/natureza/ban-a1.jpg" alt=""> <h3>Fenda de Tunda Vala</h3></div>
+   </section>
+    <h2>Depoimentos</h2>
+   <section class="depoimentos">
+    <div class="depo aparecer">
+        <p>Angola me surpreendeu com sua beleza naturalidade e hospitalidade!</p>
+        <span>Kaster - portugal</span>
+    </div>
+    <div class="depo aparecer">
+        <p>Angola me surpreendeu muito, mas não é um dos melhores que há.</p>
+        <span>Itamar - Brasil</span>
+    </div>
+    <div class="depo aparecer">
+        <p>Cultura rica Paisagens únicas... Foi uma viagem dos sonhos!</p>
+        <span>welcome - Cabo Verde</span>
+    </div>
+    <div class="depo aparecer">
+        <p>A Serra da Leba é um lugar inesquecível. Recomendo demais.</p>
+        <span>Trable Shot - Moçambique</span>
+    </div>
+   </section>
+   <section class="hero-paisagem">
+   </section>
+   <script>
+        function toggleMenu(){
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('Show');
+        }
+    </script>
+     <footer class="pe">
+          <div class="foter">
+                <li>Tudo sobre</li>
+                <li>Cultura</li>
+                <li>Economia</li>
+                <li>Paisagens</li>
+                <li>De Angola</li>
+        </div>
+        <div class="foter" id="icon">
+            <img src="imgs/icons/instagram (2).png" alt="">
+            <img src="imgs/icons/tiktok (1).png" alt="">
+            <img src="imgs/icons/youtube (1).png" alt="">
+            <img src="imgs/icons/communication (1).png" alt="">
+        </div>
+        <div class="foter">
+                <li>Continente africano</li>
+                <li>País Angola</li>
+                <li>Capital Luanda</li>
+                <li>Língua oficial Português</li>
+                <li>Moeda Kwanza(kz/AOA)</li>
+        </div>
+
+        <div class="foter" id="p">
+        Este site foi criado pelo Zacarias King Zaca
+        Para mostrar um pouco sobre Angola. Sobre a cultura, tradições, paisagens e muito mais.
+        <div>
+    </footer>
+</body>
+</html>

@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-@media  (max-width:480px) {
-    
+@media  (max-width:480px) {    
     .menu {
         display: none;
         flex-direction: column;
@@ -35,7 +34,7 @@
     .ango-img img {
         width: 100%;
     }
-    
+
     h2 {
         padding:10px;
     }
@@ -83,25 +82,42 @@
     .hero-mapa img:hover {
         transform: scale(1.06);
     }
-    
-    .caixa {
-        background-color: rgba(255, 255, 0, 0.603);
-        border-radius: 10px;
-        padding: 10px;
-        width: 80%;
-        margin: auto;
-        margin-bottom:  20px;
-        font-weight: bold;
-        font-size: 18px;
-        color: black;
-        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.349);
-        text-align: center;
-        transition: all 0.3s;
-    }
+
+    #caixa {
+    background-color: rgba(255, 255, 0, 0.603);
+    border-radius: 10px;
+    padding: 10px;
+    width: 85%;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.349);
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+   }
 
     caixa:hover,.caixa:active {
         background-color: rgba(255, 255, 0, 0.397);
         transform: scale(1.05);
     }
+    .hero-paisagem p {
+    font-size: 20px;
+    margin: auto;
+    }
 
+    span {
+        color: red;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .pe {
+        padding: 10px;
+    }
+    
+    #economia {
+        padding: 10px;
+    }
 }
